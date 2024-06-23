@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Skill Residence</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" defer></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" defer></script>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header class="bg-dark text-white border-bottom shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center py-3">
+            <img src="img/logo.png" alt="Logo" id="logo" class="img-fluid">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="container my-5">
+        <section id="home" class="text-left d-flex align-items-center" data-aos="fade-up">
+            <div>
+                <h1 class="display-4">Welcome to <span style="color: #28a745;">My Skill Residence</span></h1>
+                <p class="lead">Enhance your skills with our resources.</p>
+                <button class="btn btn-success mt-3">Learn More</button>
+            </div>
+            <img src="img/content-title.png" alt="Content Title" class="img-fluid ml-3 rounded shadow">
+        </section>
+        <section id="gallery" class="mt-5" data-aos="fade-up">
+            <h2 class="text-center">Our Residences</h2>
+            <div class="row gallery">
+                <!-- Each gallery item now has a more descriptive class name -->
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/denah_rumah.jpg" alt="Denah Rumah" class="img-fluid rounded shadow" aria-label="Denah Rumah">
+                    <p class="text-center mt-2">Denah Rumah</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/house-1.png" alt="House 1" class="img-fluid rounded shadow" aria-label="House 1">
+                    <p class="text-center mt-2">House 1</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/house-2.png" alt="House 2" class="img-fluid rounded shadow" aria-label="House 2">
+                    <p class="text-center mt-2">House 2</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/house-3.png" alt="House 3" class="img-fluid rounded shadow" aria-label="House 3">
+                    <p class="text-center mt-2">House 3</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/house-4.png" alt="House 4" class="img-fluid rounded shadow" aria-label="House 4">
+                    <p class="text-center mt-2">House 4</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/fasilitas/1.jpg" alt="Gallery Image 1" class="img-fluid rounded shadow" aria-label="Facility 1">
+                    <p class="text-center mt-2">Description for Gallery Image 1</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/fasilitas/2.jpg" alt="Gallery Image 2" class="img-fluid rounded shadow" aria-label="Facility 2">
+                    <p class="text-center mt-2">Description for Gallery Image 2</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/fasilitas/3.jpg" alt="Gallery Image 3" class="img-fluid rounded shadow" aria-label="Facility 3">
+                    <p class="text-center mt-2">Description for Gallery Image 3</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/fasilitas/4.jpg" alt="Gallery Image 4" class="img-fluid rounded shadow" aria-label="Facility 4">
+                    <p class="text-center mt-2">Description for Gallery Image 4</p>
+                </div>
+                <div class="col-md-4 mb-4 gallery-item" data-aos="fade-up">
+                    <img src="img/fasilitas/5.jpg" alt="Gallery Image 5" class="img-fluid rounded shadow" aria-label="Facility 5">
+                    <p class="text-center mt-2">Description for Gallery Image 5</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-white border-top py-3 text-center">
+        <p class="mb-0">&copy; 2023 My Skill Residence. All rights reserved.</p>
+    </footer>
+</body>
+</html>
